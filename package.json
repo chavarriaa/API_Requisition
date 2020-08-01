@@ -1,0 +1,28 @@
+{
+  "name": "api_requisition",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chavarriaa/API_Requisition.git"
+  },
+  "author": "Rafael Alejandro C.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chavarriaa/API_Requisition/issues"
+  },
+  "homepage": "https://github.com/chavarriaa/API_Requisition#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.0",
+    "morgan": "^1.10.0",
+    "mssql": "^6.2.1",
+    "socket.io": "^2.3.0"
+  }
+}
